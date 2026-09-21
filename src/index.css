@@ -10,6 +10,12 @@ body {
   font-family: "General Sans", sans-serif;
 }
 
+.hero-video {
+  filter: contrast(1.14) saturate(1.08) brightness(1.04);
+  transform: translateZ(0);
+  backface-visibility: hidden;
+}
+
 @theme {
   --color-blue-50: #dfdff0;
   --color-blue-75: #dfdff2;

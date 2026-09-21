@@ -60,7 +60,8 @@ const BentoCard = ({ src, title, description }: BentoCardProps) => {
         loop
         muted
         autoPlay
-        className="absolute top-0 left-0 size-full object-cover object-center"
+        playsInline
+        className="absolute top-0 left-0 size-full object-contain object-center"
       />
 
       <div className="relative z-10 flex size-full flex-col justify-between p-5 text-blue-50">
@@ -91,7 +92,7 @@ export const Features = () => {
           </p>
         </div>
 
-        <BentoTilt className="border-hsla relative mb-7 h-96 w-full overflow-hidden rounded-md md:h-[65vh]">
+        <BentoTilt className="border-hsla relative mb-7 h-[100dvh] w-full overflow-hidden rounded-md">
           <BentoCard
             src={VIDEO_LINKS.feature1}
             title={
@@ -103,11 +104,8 @@ export const Features = () => {
           />
         </BentoTilt>
 
-        <div
-          id="nexus"
-          className="grid h-[135vh] grid-cols-2 grid-rows-3 gap-7"
-        >
-          <BentoTilt className="bento-tilt_1 row-span-1 md:col-span-1 md:row-span-2">
+        <div id="nexus" className="flex flex-col gap-7">
+          <BentoTilt className="bento-tilt_1 h-[100dvh] w-full">
             <BentoCard
               src={VIDEO_LINKS.feature2}
               title={
@@ -119,7 +117,7 @@ export const Features = () => {
             />
           </BentoTilt>
 
-          <BentoTilt className="bento-tilt_1 row-span-1 ms-32 md:col-span-1 md:ms-0">
+          <BentoTilt className="bento-tilt_1 h-[100dvh] w-full">
             <BentoCard
               src={VIDEO_LINKS.feature3}
               title={
@@ -131,7 +129,7 @@ export const Features = () => {
             />
           </BentoTilt>
 
-          <BentoTilt className="bento-tilt_1 me-14 md:col-span-1 md:me-0">
+          <BentoTilt className="bento-tilt_1 h-[100dvh] w-full">
             <BentoCard
               src={VIDEO_LINKS.feature4}
               title={

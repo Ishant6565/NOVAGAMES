@@ -62,7 +62,11 @@ export const Navbar = () => {
         <nav className="flex size-full items-center justify-between p-4">
           <div className="flex items-center gap-7">
             <a href="#hero" className="transition hover:opacity-75">
-              <img src="/img/logo.png" alt="Logo" className="w-10" />
+              <img
+                src="/shadow-eye-hunter.png"
+                alt="Nova Games logo"
+                className="w-10"
+              />
             </a>
 
             <Button

@@ -69,7 +69,7 @@ export const Story = () => {
                   onMouseMove={handleMouseMove}
                   src="/img/entrance.webp"
                   alt="Entrance"
-                  className="object-contain"
+                  className="size-full object-contain"
                 />
               </div>
             </div>
