@@ -152,7 +152,7 @@ body {
   }
 
   .gallery-img {
-    @apply size-full bg-cover;
+    @apply size-full bg-contain bg-no-repeat bg-center;
   }
 
   .gallery-img-4 {

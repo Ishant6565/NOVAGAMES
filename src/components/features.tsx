@@ -157,7 +157,7 @@ export const Features = () => {
               loop
               muted
               autoPlay
-              className="size-full object-cover object-center"
+              className="size-full object-contain object-center"
             />
           </BentoTilt>
         </div>

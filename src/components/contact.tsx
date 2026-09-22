@@ -8,7 +8,7 @@ interface ImageClipBoxProps {
 
 const ImageClipBox = ({ src, alt, clipClass }: ImageClipBoxProps) => (
   <div className={clipClass}>
-    <img src={src} alt={alt} />
+    <img src={src} alt={alt} className="h-auto max-w-none object-contain" />
   </div>
 );
 

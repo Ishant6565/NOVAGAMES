@@ -51,7 +51,7 @@ export const About = () => {
           <img
             src="/img/about.webp"
             alt="Background"
-            className="absolute top-0 left-0 size-full object-cover"
+            className="absolute top-0 left-0 size-full object-contain"
           />
         </div>
       </div>
